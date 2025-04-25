@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TNL Media</title>
+        <link rel="stylesheet" href="orderstyle.css">
+    </head>
+<body>
+    <main>
+        <section id="header">
+            <h1><a href="home.html">TNL Media</a></h1>
+            <nav>
+                <ul class="nav_list">
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="contact_us.html">Contact Us</a></li>
+                    <li><a href="order.html" class="current">Order</a></li>
+                </ul>
+            </nav>
+            
+        </section>
+
+        <hr class="separator">
+
+        
+        <section id="Banner">
+            <img class="banner_image" src="Images/banner.jpg" alt="Banner">
+            <div class="banner_text">
+                <h2>Order Page</h2>
+                <p>Revamp your social media today!</p>
+            </div>
+        </section>
+
+        <section id="Form">
+            <h2><u>Order Form</u></h2>
+            
+            <form class="form">
+                
+            <div class="same_row">
+                <div class="form_group">
+                    <label for="name">Name</label>
+                    <input class="name" type="text" id="name" name="name" placeholder="John Doe" required>
+                </div>
+
+                <div class="form_group">
+                    <label for="phone_number">Phone Number</label>
+                    <input class="phone_number" type="number" id="phone_number" name="phone_number" placeholder="+1(868)123-4567"required>
+                </div>
+
+            </div>
+
+                <div class="form_group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="sample_email@gmail.com" required>
+                </div>
+
+                <div class="form_group">
+                    <label for="message">Service Required</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Service Details" required></textarea>
+
+                </div>
+                <button type="sumbit">Send</button>
+
+            </form>
+        
+        </section>
+
+
+        <section id="Footer">
+            <h3>TNL Media</h3>
+            <p class="gmail">tnl.media.official@gmail.com</p>
+            <p class="IA">This website was created for a school project</p>
+        </section>
+
+
+
+    </main>
+</body>
+</html>

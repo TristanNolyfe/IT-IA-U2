@@ -1,0 +1,208 @@
+@keyframes fadeIn{
+    from{
+        opacity:0;
+
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+main {
+    animation: fadeIn 1s ease-in-out;
+}
+
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 40px;
+}
+
+#header h1{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+#header h1 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: color 0.3s;
+}
+
+#header h1 a:hover{
+    color:rgb(188, 188, 188);
+
+}
+
+.nav_list{
+    font-size: 30px;
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 50px;
+    padding-left: 40px;
+    margin-top: 55px;
+
+
+}
+
+.nav_list li{
+    display: inline;
+}
+
+.nav_list a{
+    text-decoration: none;
+    color: rgb(174, 174, 174);
+    padding: 15px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+   
+}
+
+
+.nav_list a:hover{
+    color:rgb(255, 255, 255);
+    transition: color 0.3s;
+    
+ 
+}
+
+.nav_list li a.current{
+    color:rgb(255, 255, 255);
+
+}
+
+.separator{
+    border: 0;
+    height: 4px;
+    background: rgb(147, 147, 147);
+    margin: 0px 0;
+}
+
+
+body{
+    margin: 0;
+    height: 100vh;
+    background: black;
+    background-attachment: fixed;
+    color: white;
+    font-family: Arial, sans-serif;}
+
+.image{
+     width: 200px;}
+
+.banner_image{
+    width: 100%;
+    height: 100%; 
+    filter: grayscale(100%);
+
+}
+
+#Banner{
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 50vh; 
+    overflow: hidden;
+}
+
+.banner_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.banner_text h2{
+    font-size: 60px;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+}
+
+.banner_text p{
+    font-size: 24px;
+    margin-top: 0px;
+    padding-top: 0;
+}
+
+#Form h2{
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: left;
+    transform: scale(1.2);
+    padding-bottom: 100px;
+    
+}
+
+.same_row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1020px;
+
+}
+
+.form_group{
+    padding-bottom: 30px;
+}
+
+
+.name, .phone_number {
+    width: 400px; 
+}
+
+form input, form textarea, form button{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 1000px;
+    border: 1px, solid #ddd;
+    color: white;
+    border-radius: 5px; 
+    background: #222;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+form button {
+    
+    background: #00bcd4;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    
+}
+
+form button:hover {
+    background: #0097a7;
+}
+
+
+#Footer{
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+#Footer h3, #Footer p{
+    padding-bottom: 24px;
+}
